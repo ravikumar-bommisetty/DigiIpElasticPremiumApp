@@ -39,4 +39,4 @@ jobs:
           app-name: 'DigiIpElasticPremiumApp'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C8AF2F9B1F084EB39F14BDD91ADFA582 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_91A1AF88B44340ACA6D8562DEF63EF8C }}
